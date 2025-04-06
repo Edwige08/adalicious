@@ -8,24 +8,65 @@
     <title>Adalicious - Vue cuisine</title>
 </head>
 <body>
-    <h2>Adalicious 🥦</h2>
-    <p>VUE CUISINE</p>
+    <div id="kitchen_title">
+        <h2>Adalicious 🥦</h2>
+        <p class="green">VUE CUISINE</p>
+    </div>
 
     <div id="orders_from_users">
         <div class="user_orders">
-            <div class="image">
-                <p class="dish_img">🥗</p>
-            </div>
-            <div class="dish">
-                <h3 id="dish_name">Commande de {user1}</h3>
-                <p class="dish_description">1 x Front-End Salad</p>
+            <div class="img_name_description">
+                <div class="image">
+                    <p class="dish_img">🥗</p>
+                </div>
+                <div class="dish">
+                    <h3 class="dish_name">Commande de {user1}</h3>
+                    <p class="dish_description">1 x Front-End Salad</p>
+                </div>
             </div>
             <div class="buttons_div">
-                <button class="order_in_progress">En préparation</button>
-                <button class="order_ready">Commande prête !</button>
+                <button class="order_in_progress_button">En préparation</button>
+                <button class="order_ready_button">Commande prête !</button>
             </div>
         </div>
-        <button class="delete_order">Annuler la commande</button>
+        <button class="delete_order_button">Annuler la commande</button>
+
+        <div class="user_orders">
+            <div class="img_name_description">
+                <div class="image">
+                    <p class="dish_img">🌮</p>
+                </div>
+                <div class="dish">
+                    <h3 class="dish_name">Commande de {user2}</h3>
+                    <p class="dish_description">1 x Git Pull Tacos</p>
+                </div>
+            </div>
+            <div class="buttons_div">
+                <button class="order_in_progress_button">En préparation</button>
+                <button class="order_ready_button">Commande prête !</button>
+            </div>
+        </div>
+        <button class="delete_order_button">Annuler la commande</button>
+
+        <div class="user_orders">
+            <div class="img_name_description">
+                <div class="image">
+                    <p class="dish_img">🍔</p>
+                </div>
+                <div class="dish">
+                    <h3 class="dish_name">Commande de {user3}</h3>
+                    <p class="dish_description">1 x Hello World Burger</p>
+                </div>
+            </div>
+            <div class="buttons_div">
+                <button class="order_in_progress_button">En préparation</button>
+                <button class="order_ready_button">Commande prête !</button>
+            </div>
+        </div>
+        <button class="delete_order_button">Annuler la commande</button>
     </div>
+    <br><br>
+    <a href="./index.html">Retour interface utilisateur</a>
+
 </body>
 </html>

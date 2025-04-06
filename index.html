@@ -8,83 +8,110 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="kitchen_interface_access">
-        <a href="./kitchen_view.html">Interface cuisine 👩‍🍳</a>
-    </div>
+    <div id="title_page">
 
-    <div id="title">
-        <h1>🥦<br>
-            Bienvenue sur Adalicious
-        </h1>
-    </div>
-
-    <div>
-        <label for="user_name">
-            Pour commencer, peux-tu me donner ton prénom :<br><br>
-            <input type="text" name="user_name" id="user_name"><br>
-            <button type="submit" id="submit_name">Valider</button>
-        </label>
-    </div>
-
-    <div id="order_title">
-        <h2>Adalicious 🥦</h2>
-        <p>Bonjour cher.e gourmand</p>
-    </div>
-
-    <div id="dishes_div">
-
-        <div class="dish_div">
-
-            <div class="img_name_description">
-                <div class="image">
-                    <p class="dish_img">🍔</p>
-                </div>
-
-                <div class="dish">
-                    <h3 id="dish_name">Hello World Burger</h3>
-                    <p class="dish_description">Un cheeseburger classique (pain, steak, fromage, salade, sauce).</p>
-                </div>
-            </div>
-
-            <div class="button_div">
-                <button class="order_button" id="order_hw_burger">Commander</button>
-            </div>
-
+        <div id="kitchen_interface_access">
+            <a href="./kitchen_view.html">Interface cuisine 👩‍🍳</a>
+        </div>
+    
+        <div id="title">
+            <h1>🥦<br>
+                Bienvenue sur Adalicious
+            </h1>
+        </div>
+    
+        <div>
+            <label for="user_name">
+                Pour commencer, peux-tu me donner ton prénom :<br><br>
+                <input type="text" name="user_name" id="user_name"><br>
+                <button type="submit" id="submit_name">Valider</button>
+            </label>
         </div>
 
-        <div class="dish_div">
+    </div>
 
-            <div class="img_name_description">
-                <div class="image">
-                    <p class="dish_img">🍟</p>
+    <div id="ordering_page">
+
+        <div id="order_title">
+            <h2>Adalicious 🥦</h2>
+            <p>Bonjour cher.e gourmand</p>
+        </div>
+    
+        <div id="dishes_div">
+    
+            <div class="dish_div">
+    
+                <div class="img_name_description">
+                    <div class="image">
+                        <p class="dish_img">🍔</p>
+                    </div>
+    
+                    <div class="dish">
+                        <h3 id="dish_name">Hello World Burger</h3>
+                        <p class="dish_description">Un cheeseburger classique (pain, steak, fromage, salade, sauce).</p>
+                    </div>
                 </div>
-
-                <div class="dish">
-                    <h3 id="dish_name">404 Not Found Fries</h3>
-                    <p class="dish_description">Des frites maison avec une sauce mystère (choisie aléatoirement par le backend !).</p>
+    
+                <div class="button_div">
+                    <button class="order_button" id="order_hw_burger">Commander</button>
+                </div>
+    
+            </div>
+    
+            <div class="dish_div">
+    
+                <div class="img_name_description">
+                    <div class="image">
+                        <p class="dish_img">🍟</p>
+                    </div>
+    
+                    <div class="dish">
+                        <h3 id="dish_name">404 Not Found Fries</h3>
+                        <p class="dish_description">Des frites maison avec une sauce mystère (choisie aléatoirement par le backend !).</p>
+                    </div>
+                </div>
+    
+                <div class="button_div">
+                    <button class="order_button" id="order_404nf_fries">Commander</button>
                 </div>
             </div>
-
-            <div class="button_div">
-                <button class="order_button" id="order_404nf_fries">Commander</button>
+    
+            <div class="dish_div">
+    
+                <div class="img_name_description">
+                    <div class="image">
+                        <p class="dish_img">🍗</p>
+                    </div>
+    
+                    <div class="dish">
+                        <h3 id="dish_name">JSON Nuggets</h3>
+                        <p class="dish_description">Nuggets de poulet avec 3 sauces au choix (ketchup, mayo, barbecue).</p>
+                    </div>
+                </div>
+    
+                <div class="button_div">
+                    <button class="order_button" id="order_json_nuggets">Commander</button>
+                </div>
             </div>
+    
         </div>
 
-        <div class="dish_div">
+    </div>
 
-            <div class="img_name_description">
-                <div class="image">
-                    <p class="dish_img">🍗</p>
-                </div>
+    <div id="waiting_page">
 
-                <div class="dish">
-                    <h3 id="dish_name">JSON Nuggets</h3>
-                    <p class="dish_description">Nuggets de poulet avec 3 sauces au choix (ketchup, mayo, barbecue).</p>
-                </div>
-            </div>
+        <div id="waiting_title">
+            <h2>Adalicious 🥦</h2>
+            <p>Merci pour ta commande cher.e gourmand</p>
+        </div>
 
-            <div class="button_div">
-                <button class="order_button" id="order_json_nuggets">Commander</button>
+        <div>
+            <h2>Suivi :</h2>
+
+            <div id="order_status">
+                <p class="status_text">En préparation</p>
+                <p class="dish_waiting_img">🍫</p>
+                <p class="dish_name_status">Back-End Brownie</p>
             </div>
         </div>
 

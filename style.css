@@ -38,6 +38,9 @@ label {
 }
 
 /* *** COMMANDE *** */
+#ordering_page {
+    display: none;
+}
 .dish_div {
     display: flex;
     flex-direction: column;
@@ -52,7 +55,7 @@ label {
 .dish_img {
     border: solid 2px black;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240);
     padding: 15px;
     font-size: 1.8em;
 }
@@ -62,4 +65,71 @@ label {
 .button_div {
     display: flex;
     justify-content: flex-end;
+}
+
+/* *** SUIVI DE LA COMMANDE *** */
+#waiting_page {
+    display: none;
+}
+#order_status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+.status_text {
+    color: green;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.dish_waiting_img {
+    border: solid 2px green;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    font-size: 2em;
+    margin: 0;
+}
+.dish_name_status {
+    font-size: 1.1em;
+}
+
+/* *** INTERFACE CUISINE *** */
+#kitchen_title {
+    text-align: center;
+}
+.green {
+    color: green;
+    font-weight: bold;
+}
+.user_orders {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.buttons_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.order_in_progress_button, .order_ready_button {
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.order_in_progress_button {
+    background-color: orange;
+}
+.order_ready_button {
+    background-color: green;
+}
+.delete_order_button {
+    background-color: red;
+    border-radius: 10px;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 5px;
 }
