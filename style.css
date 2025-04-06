@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* *** ACCES INTERFACE CUISINE *** */
+#kitchen_interface_access {
+    width: 100%;
+    text-align: right;
+}
+#kitchen_interface_access a {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+/* *** TITRE ACCUEIL *** */
+h1 {
+    text-align: center;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#user_name {
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#submit_name, .order_button {
+    background-color: rgb(154, 203, 235);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+/* *** COMMANDE *** */
+.dish_div {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.img_name_description {
+    display: flex;
+}
+.dish_img {
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    font-size: 1.8em;
+}
+.dish {
+    padding: 10px;
+}
+.button_div {
+    display: flex;
+    justify-content: flex-end;
+}

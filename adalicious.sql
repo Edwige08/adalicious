@@ -21,7 +21,10 @@ INSERT INTO dishes (dish_name, price) VALUES
     ('Hello World Burger', 10),
     ('404 Not Found Fries', 4),
     ('JSON Nuggets', 8),
-    ('HTTPS Milkshake', 6);
+    ('Front-End Salad', 9),
+    ('Git Pull Tacos', 8),
+    ('Back-End Brownie', 6),
+    ('HTTPS Milkshake', 5);
 
 -- Ajout de commandes dans orders : 
 INSERT INTO orders (dish_id, created_at) VALUES
