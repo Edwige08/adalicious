@@ -40,6 +40,11 @@ label {
 /* *** COMMANDE *** */
 #ordering_page {
     display: none;
+    flex-direction: column;
+}
+#order_title {
+    margin: 20px;
+    font-size: 1.4em;
 }
 .dish_div {
     display: flex;
@@ -48,19 +53,33 @@ label {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+    max-width: 800px;
 }
 .img_name_description {
     display: flex;
+    align-items: center;
 }
-.dish_img {
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 2px black;
     border-radius: 10px;
     background-color: rgb(240, 240, 240);
     padding: 15px;
     font-size: 1.8em;
+    width: 7vw;
+    height: 7vw;
 }
 .dish {
     padding: 10px;
+}
+.dish_name {
+    font-size: 1.6em;
+}
+.dish_description {
+    font-size: 1.1em;
+    font-style: italic;
 }
 .button_div {
     display: flex;
